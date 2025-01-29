@@ -25,12 +25,15 @@ Las pruebas permiten validar el comportamiento de la aplicación en distintos es
    npm install
 
 ## Ejecución de pruebas
-## Ejecuta en ambiente por default:
-   ```bash
-    npm test  
-## Para correr un ambiente en particular
-   ```bash
-    $env:ENV="production"; npm test   Para correr un ambiente en particular
+
+Ejecuta en ambiente por default:
+   
+    npm test
+
+Para correr un ambiente en particular
+   
+    $env:ENV="production"; npm test
+
 
 ## Reportes
 Los reportes generados estarán en la carpeta raíz bajo el nombre "cucumber-report.html"
